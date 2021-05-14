@@ -1,0 +1,299 @@
+//Hero
+body {
+	overflow-x: hidden;
+}
+
+.sticky {
+	top: 0;
+	position: sticky;
+}
+
+#hero {
+	width: 100vw;
+	height: 71.2rem;
+	background: url("../../../../BoilerPlate/assets/img/background-trans.png");
+	background-size: cover;
+
+	.container {
+		padding: 7.2rem 15.2rem 0 15.2rem;
+		text-align: center;
+
+		.hero-title {
+			font-family: $SECONDARYFONT;
+			margin-bottom: 24px;
+		}
+
+		.hero-subtitle {
+			margin-bottom: 4.8rem;
+		}
+
+		.hero-cta-btn-OurWorks {
+			font-family: $SECONDARYFONT;
+			margin-bottom: 4.8rem;
+		}
+
+		.row {
+			align-items: center;
+			justify-content: center;
+
+			.hero-small-pic {
+				background: $BLUE20;
+				width: 27.2rem;
+				height: 19.187rem;
+				border-radius: 8px;
+				box-shadow: 0px.2rem 0.4rem 0.2rem $MUTED;
+				border: 5px solid $LIGHTBLUE;
+				overflow: hidden;
+			}
+
+			.hero-main-pic {
+				background: $BLUE20;
+				width: 56rem;
+				height: 29.6rem;
+				border-radius: 8px;
+				box-shadow: 0px.2rem 0.4rem 0.2rem $MUTED;
+				border: 5px solid $LIGHTBLUE;
+				overflow: hidden;
+			}
+		}
+	}
+}
+
+.smallPic {
+	width: 27.2rem;
+	height: 19.187rem;
+}
+
+.bigPic {
+	width: 56rem;
+	height: 29.6rem;
+}
+
+//Feature
+
+#features {
+	width: 100vw;
+	height: 82.4rem;
+
+	.container {
+		padding: 0 15.2rem;
+		text-align: center;
+
+		.feature__imageHolder {
+			width: 113.6rem;
+			height: 39.2rem;
+			background-color: $BLUE20;
+			border-radius: 0 0 1rem 1rem;
+			border: 5px solid rgb(255, 255, 255);
+			border-top: 0px;
+			box-shadow: 0px 0.2rem 0.3rem 0.2rem $MUTED;
+			overflow: hidden;
+			margin-bottom: 3.2rem;
+		}
+
+		.feature-title {
+			font-family: $SECONDARYFONT;
+			margin-bottom: 2.4rem;
+		}
+
+		.feature-subtitle {
+			color: $BODYCOLOR;
+			margin-bottom: 4.8rem;
+		}
+
+		.row {
+			align-items: center;
+			justify-content: flex-start;
+
+			.row__feature-category {
+				width: 36.8rem;
+				height: 17rem;
+				text-align: left;
+
+				.row__feature-category-icon {
+					width: 5.476rem;
+					height: 5rem;
+					border-radius: 0.8rem;
+					overflow: hidden;
+					margin-bottom: 0.8rem;
+
+					.icon {
+						width: 5.476rem;
+						height: 5rem;
+					}
+				}
+
+				.row__feature-category-heading {
+					color: $TITLECOLOR;
+					margin-bottom: 0.8rem;
+					font-family: $SECONDARYFONT;
+				}
+
+				.row__feature-category-content {
+					color: $BODYCOLOR;
+				}
+			}
+		}
+	}
+}
+
+.feature-image {
+	width: 113.6rem;
+	margin-top: -60px;
+}
+
+//Team
+#team {
+	width: 100vw;
+	height: 118rem;
+	background: $LIGHTBLUE;
+
+	.container {
+		padding: 10.4rem 15.2rem;
+
+		.team__heading {
+			width: 54rem;
+			justify-content: flex-start;
+			align-items: center;
+			margin-bottom: 2.4rem;
+			gap: 2.4rem;
+
+			.line {
+				width: 12.8rem;
+				height: 0.4rem;
+				background-color: $TITLECOLOR;
+			}
+
+			.team__heading-title {
+				font-family: $SECONDARYFONT;
+				color: $TITLECOLOR;
+			}
+		}
+
+		.team-description {
+			padding-left: 15.2rem;
+			color: $BODYCOLOR;
+			margin-bottom: 7.2rem;
+		}
+
+		.team-items {
+			align-items: center;
+			justify-content: center;
+			gap: 16px;
+			width: 113.6rem;
+			height: 36.8rem;
+
+			.team-items-content {
+				width: 36.8rem;
+				height: 36.8rem;
+				background: $LIGHTBLUE2;
+				text-align: center;
+				position: relative;
+
+				.team-content-position {
+					padding-left: 22.1rem;
+					padding-top: 2.4rem;
+					color: $INFIELDCOLOR;
+				}
+
+				.team-content__picHolder {
+					width: 22.4rem;
+					height: 22.4rem;
+					border-radius: 50%;
+					border: 5px solid rgb(255, 255, 255);
+					background: $BLUE20;
+					overflow: hidden;
+					margin: 2.4rem 0 2rem 7.2rem;
+
+					.team-image {
+						width: 22.4rem;
+					}
+
+					.supri {
+						margin-top: -5rem;
+					}
+
+					.donatello {
+						margin-top: -3rem;
+					}
+				}
+				.team-content__name {
+					color: $BODYCOLOR;
+				}
+				.button-add {
+					position: absolute;
+					z-index: 99;
+					.plus {
+						background-color: white;
+						padding: 0.9rem 1.7rem;
+						font-size: 2.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+.image5 {
+	margin-top: -4rem;
+}
+
+.team1 {
+	margin-bottom: 16px;
+}
+
+.button-add:hover + .details {
+	opacity: 0.95;
+	transition: 0.75s ease;
+}
+
+.button-add:hover + .details-text {
+	opacity: 1;
+	transition: 0.75s ease;
+	z-index: 2;
+}
+
+.details-text-name {
+	color: rgb(255, 255, 255);
+	margin-bottom: 1.3rem;
+}
+
+.details-text-position {
+	color: rgb(255, 255, 255);
+	margin-bottom: 2.4rem;
+}
+
+.details-text-description {
+	width: 24.8rem;
+	color: rgb(255, 255, 255);
+	margin-bottom: 3rem;
+}
+
+.details-socmed {
+	width: 15.2rem;
+	height: 4rem;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.socmed-buttons {
+	color: rgb(255, 255, 255);
+	width: 4rem;
+	height: 4rem;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	line-height: 4rem;
+}
+
+.details {
+	position: absolute;
+	width: 36.8rem;
+	height: 36.8rem;
+	background-color: $PRIMARYCOLOR;
+	opacity: 0;
+	top: 0;
+	text-align: left;
+	padding-left: 3.2rem;
+	padding-top: 5.4rem;
+}

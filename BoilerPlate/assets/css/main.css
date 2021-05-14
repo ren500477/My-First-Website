@@ -1,0 +1,702 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.heading-1 {
+  font-size: 7rem;
+  line-height: 7.2rem;
+}
+
+.heading-2 {
+  font-size: 6.4rem;
+  line-height: 8.6rem;
+}
+
+.heading-3 {
+  font-size: 4.8rem;
+  line-height: 6.398rem;
+  font-weight: 700;
+}
+
+.heading-4 {
+  font-size: 3.2rem;
+  line-height: 4.3rem;
+  font-weight: 700;
+}
+
+.heading-5 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+
+.heading-6 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+}
+
+.paragraphLead,
+.menuLarge {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 1.7rem;
+  line-height: 2.1rem;
+  font-weight: 700;
+}
+
+.paragraphMedium {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+
+.caption {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.menuMedium {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
+.menuSmall {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.current {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+
+.font-secondary {
+  font-family: "Raleway", sans-serif;
+}
+
+.titleColor {
+  color: #333333;
+}
+
+.paragraphRegular {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.btn--Small {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.btn--Large {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+}
+
+.active--Solid {
+  background: #3371f2;
+  color: white;
+}
+
+.active--Hollow {
+  background: white;
+  border: 1px #3371f2 solid;
+  color: #3371f2;
+}
+
+.pressed--Solid {
+  background: #0c47c0;
+}
+
+.pressed--Hollow {
+  background: white;
+  border: 1px #0c47c0;
+  color: #0c47c0;
+}
+
+.disabled--Solid {
+  background: #ecf2fe;
+  color: #a0bcf8;
+}
+
+.disabled--Hollow {
+  background: white;
+  color: #a0bcf8;
+  border: 1px #ecf2fe;
+}
+
+.btn--SocMed {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #3371f2;
+  color: white;
+  text-align: center;
+}
+
+.Large {
+  padding: 1.2rem 1.5rem;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.Medium {
+  padding: 0.7rem 0.9rem;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.Small {
+  padding: 0.3rem 0.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 144rem;
+  margin: 0 auto;
+}
+
+.row {
+  gap: 1.6rem;
+}
+
+.column-1 {
+  flex: 1;
+}
+
+.column-2 {
+  flex: 2;
+}
+
+.column-3 {
+  flex: 3;
+}
+
+.column-4 {
+  flex: 4;
+}
+
+.column-5 {
+  flex: 5;
+}
+
+.column-6 {
+  flex: 6;
+}
+
+.column-7 {
+  flex: 7;
+}
+
+.column-8 {
+  flex: 8;
+}
+
+.column-9 {
+  flex: 9;
+}
+
+.column-10 {
+  flex: 10;
+}
+
+.column-11 {
+  flex: 11;
+}
+
+.column-12 {
+  flex: 12;
+}
+
+#nav-top {
+  width: 100vw;
+  height: 8rem;
+  background: #ecf2fe;
+}
+
+#nav-top .container {
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15.2rem;
+}
+
+.nav-top-logo {
+  width: 17.6rem;
+  height: 3.467rem;
+}
+
+.Social {
+  align-items: center;
+  height: 2.4rem;
+}
+
+.Social-btn {
+  margin-left: 1.6rem;
+}
+
+#nav {
+  width: 100vw;
+  height: 8.8rem;
+  background: #3371f2;
+  z-index: 999;
+}
+
+#nav .container {
+  height: 8.8rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15.2rem;
+}
+
+.primary-menu {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu-items {
+  color: #a0bcf8;
+}
+
+.active {
+  color: white;
+  font-weight: 500;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.sticky {
+  top: 0;
+  position: sticky;
+}
+
+#hero {
+  width: 100vw;
+  height: 71.2rem;
+  background: url("../../../../BoilerPlate/assets/img/background-trans.png");
+  background-size: cover;
+}
+#hero .container {
+  padding: 7.2rem 15.2rem 0 15.2rem;
+  text-align: center;
+}
+#hero .container .hero-title {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 24px;
+}
+#hero .container .hero-subtitle {
+  margin-bottom: 4.8rem;
+}
+#hero .container .hero-cta-btn-OurWorks {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 4.8rem;
+}
+#hero .container .row {
+  align-items: center;
+  justify-content: center;
+}
+#hero .container .row .hero-small-pic {
+  background: #a0bcf8;
+  width: 27.2rem;
+  height: 19.187rem;
+  border-radius: 8px;
+  box-shadow: 0px 0.2rem 0.4rem 0.2rem rgba(17, 15, 36, 0.2);
+  border: 5px solid #ecf2fe;
+  overflow: hidden;
+}
+#hero .container .row .hero-main-pic {
+  background: #a0bcf8;
+  width: 56rem;
+  height: 29.6rem;
+  border-radius: 8px;
+  box-shadow: 0px 0.2rem 0.4rem 0.2rem rgba(17, 15, 36, 0.2);
+  border: 5px solid #ecf2fe;
+  overflow: hidden;
+}
+
+.smallPic {
+  width: 27.2rem;
+  height: 19.187rem;
+}
+
+.bigPic {
+  width: 56rem;
+  height: 29.6rem;
+}
+
+#features {
+  width: 100vw;
+  height: 82.4rem;
+}
+#features .container {
+  padding: 0 15.2rem;
+  text-align: center;
+}
+#features .container .feature__imageHolder {
+  width: 113.6rem;
+  height: 39.2rem;
+  background-color: #a0bcf8;
+  border-radius: 0 0 1rem 1rem;
+  border: 5px solid white;
+  border-top: 0px;
+  box-shadow: 0px 0.2rem 0.3rem 0.2rem rgba(17, 15, 36, 0.2);
+  overflow: hidden;
+  margin-bottom: 3.2rem;
+}
+#features .container .feature-title {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2.4rem;
+}
+#features .container .feature-subtitle {
+  color: #666666;
+  margin-bottom: 4.8rem;
+}
+#features .container .row {
+  align-items: center;
+  justify-content: flex-start;
+}
+#features .container .row .row__feature-category {
+  width: 36.8rem;
+  height: 17rem;
+  text-align: left;
+}
+#features .container .row .row__feature-category .row__feature-category-icon {
+  width: 5.476rem;
+  height: 5rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin-bottom: 0.8rem;
+}
+#features .container .row .row__feature-category .row__feature-category-icon .icon {
+  width: 5.476rem;
+  height: 5rem;
+}
+#features .container .row .row__feature-category .row__feature-category-heading {
+  color: #333333;
+  margin-bottom: 0.8rem;
+  font-family: "Raleway", sans-serif;
+}
+#features .container .row .row__feature-category .row__feature-category-content {
+  color: #666666;
+}
+
+.feature-image {
+  width: 113.6rem;
+  margin-top: -60px;
+}
+
+#team {
+  width: 100vw;
+  height: 118rem;
+  background: #ecf2fe;
+}
+#team .container {
+  padding: 10.4rem 15.2rem;
+}
+#team .container .team__heading {
+  width: 54rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2.4rem;
+  gap: 2.4rem;
+}
+#team .container .team__heading .line {
+  width: 12.8rem;
+  height: 0.4rem;
+  background-color: #333333;
+}
+#team .container .team__heading .team__heading-title {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+#team .container .team-description {
+  padding-left: 15.2rem;
+  color: #666666;
+  margin-bottom: 7.2rem;
+}
+#team .container .team-items {
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 113.6rem;
+  height: 36.8rem;
+}
+#team .container .team-items .team-items-content {
+  width: 36.8rem;
+  height: 36.8rem;
+  background: #caddff;
+  text-align: center;
+  position: relative;
+}
+#team .container .team-items .team-items-content .team-content-position {
+  padding-left: 22.1rem;
+  padding-top: 2.4rem;
+  color: #999999;
+}
+#team .container .team-items .team-items-content .team-content__picHolder {
+  width: 22.4rem;
+  height: 22.4rem;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: #a0bcf8;
+  overflow: hidden;
+  margin: 2.4rem 0 2rem 7.2rem;
+}
+#team .container .team-items .team-items-content .team-content__picHolder .team-image {
+  width: 22.4rem;
+}
+#team .container .team-items .team-items-content .team-content__picHolder .supri {
+  margin-top: -5rem;
+}
+#team .container .team-items .team-items-content .team-content__picHolder .donatello {
+  margin-top: -3rem;
+}
+#team .container .team-items .team-items-content .team-content__name {
+  color: #666666;
+}
+#team .container .team-items .team-items-content .button-add {
+  position: absolute;
+  z-index: 99;
+}
+#team .container .team-items .team-items-content .button-add .plus {
+  background-color: white;
+  padding: 0.9rem 1.7rem;
+  font-size: 2.2rem;
+}
+
+.image5 {
+  margin-top: -4rem;
+}
+
+.team1 {
+  margin-bottom: 16px;
+}
+
+.button-add:hover + .details {
+  opacity: 0.95;
+  transition: 0.75s ease;
+}
+
+.button-add:hover + .details-text {
+  opacity: 1;
+  transition: 0.75s ease;
+  z-index: 2;
+}
+
+.details-text-name {
+  color: white;
+  margin-bottom: 1.3rem;
+}
+
+.details-text-position {
+  color: white;
+  margin-bottom: 2.4rem;
+}
+
+.details-text-description {
+  width: 24.8rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.details-socmed {
+  width: 15.2rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.socmed-buttons {
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 4rem;
+}
+
+.details {
+  position: absolute;
+  width: 36.8rem;
+  height: 36.8rem;
+  background-color: #3371f2;
+  opacity: 0;
+  top: 0;
+  text-align: left;
+  padding-left: 3.2rem;
+  padding-top: 5.4rem;
+}/*# sourceMappingURL=main.css.map */

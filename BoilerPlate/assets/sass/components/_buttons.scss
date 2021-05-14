@@ -1,0 +1,74 @@
+.btn--Small {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1rem 1.6rem;
+	border-radius: 0.8rem;
+}
+
+.btn--Large {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1.6rem 2.4rem;
+	border-radius: 0.8rem;
+}
+
+.active--Solid {
+	background: $PRIMARYCOLOR;
+	color: white;
+}
+
+.active--Hollow {
+	background: white;
+	border: 1px $PRIMARYCOLOR solid;
+	color: $PRIMARYCOLOR;
+}
+
+.pressed--Solid {
+	background: $RICHBLUE;
+}
+
+.pressed--Hollow {
+	background: white;
+	border: 1px $RICHBLUE;
+	color: $RICHBLUE;
+}
+
+.disabled--Solid {
+	background: $LIGHTBLUE;
+	color: $BLUE20;
+}
+
+.disabled--Hollow {
+	background: white;
+	color: $BLUE20;
+	border: 1px $LIGHTBLUE;
+}
+
+.btn--SocMed {
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 50%;
+	background: $PRIMARYCOLOR;
+	color: white;
+	text-align: center;
+}
+
+.Large {
+	padding: 1.2rem 1.5rem;
+	width: 4.8rem;
+	height: 4.8rem;
+}
+.Medium {
+	padding: 0.7rem 0.9rem;
+	width: 3.2rem;
+	height: 3.2rem;
+}
+.Small {
+	padding: 0.3rem 0.5rem;
+	width: 2.4rem;
+	height: 2.4rem;
+}
+
+.d-flex {
+	display: flex;
+}

@@ -1,0 +1,98 @@
+* {
+	font: $PRIMARYFONT;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.heading-1 {
+	font-size: 7rem;
+	line-height: 7.2rem;
+}
+
+.heading-2 {
+	font-size: 6.4rem;
+	line-height: 8.6rem;
+}
+
+.heading-3 {
+	font-size: 4.8rem;
+	line-height: 6.398rem;
+	font-weight: 700;
+}
+
+.heading-4 {
+	font-size: 3.2rem;
+	line-height: 4.3rem;
+	font-weight: 700;
+}
+
+.heading-5 {
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+	font-weight: 700;
+}
+
+.heading-6 {
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	font-weight: 700;
+}
+
+.paragraphLead,
+.menuLarge {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-weight: 700;
+}
+
+.paragraph {
+	font-size: 1.7rem;
+	line-height: 2.1rem;
+	font-weight: 700;
+}
+
+.paragraphMedium {
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+	font-weight: 500;
+}
+
+.caption {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	font-weight: 500;
+}
+
+.menuMedium {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-weight: 500;
+}
+
+.menuSmall {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-weight: 400;
+}
+
+.current {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-weight: 700;
+}
+
+.font-secondary {
+	font-family: $SECONDARYFONT;
+}
+
+.titleColor {
+	color: $TITLECOLOR;
+}
+
+.paragraphRegular {
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	font-weight: 400;
+}

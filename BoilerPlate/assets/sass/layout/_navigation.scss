@@ -1,0 +1,59 @@
+//Navigation Top
+
+#nav-top {
+	width: 100vw;
+	height: 8rem;
+	background: $LIGHTBLUE;
+}
+
+#nav-top .container {
+	height: 8rem;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15.2rem;
+}
+
+.nav-top-logo {
+	width: 17.6rem;
+	height: 3.467rem;
+}
+
+.Social {
+	align-items: center;
+	height: 2.4rem;
+}
+
+.Social-btn {
+	margin-left: 1.6rem;
+}
+
+//Navigation
+
+#nav {
+	width: 100vw;
+	height: 8.8rem;
+	background: $PRIMARYCOLOR;
+	z-index: 999;
+}
+
+#nav .container {
+	height: 8.8rem;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15.2rem;
+}
+
+.primary-menu {
+	justify-content: flex-start;
+	align-items: center;
+	gap: 16px;
+}
+
+.menu-items {
+	color: $BLUE20;
+}
+
+.active {
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+}

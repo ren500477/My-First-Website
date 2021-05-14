@@ -1,0 +1,65 @@
+.heading-1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.heading-2 {
+  font-size: 3.2rem;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.heading-3 {
+  font-size: 2.7rem;
+  line-height: 1.185185;
+  font-weight: 900;
+}
+
+.heading-4 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.boldLarge {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.boldMedium {
+  font-size: 1.4rem;
+  line-height: 1.1429;
+  font-weight: 700;
+}
+
+.boldSmall {
+  font-size: 1.1rem;
+  line-height: 1.4545;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.regularLarge {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.regularMedium {
+  font-size: 1.4rem;
+  line-height: 1.1429;
+  font-weight: 400;
+}
+
+.regularSmall {
+  font-size: 1.1rem;
+  line-height: 1.4545;
+  font-weight: 400;
+}/*# sourceMappingURL=typhography.css.map */
